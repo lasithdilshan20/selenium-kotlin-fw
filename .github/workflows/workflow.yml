@@ -20,8 +20,8 @@ jobs:
         distribution: 'adopt'
 
     - name: Set execute permission for gradlew
-      run: chmod +x selenium-kotlin-fw/gradlew
-      working-directory: ${{ github.workspace }}/selenium-kotlin-fw
+      run: chmod +x ./selenium-kotlin-fw/gradlew
+      working-directory: ${{ github.workspace }}
 
     - name: Build and Run Selenium Test
       run: |
