@@ -20,6 +20,5 @@ jobs:
 
       - name: Build and Run Kotlin Program
         run: |
-          kotlinc SeleniumTest.kt -include-runtime -d SeleniumTest.jar
-          java -jar SeleniumTest.jar
+          ./gradlew test
         working-directory: ${{ github.workspace }}
