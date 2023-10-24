@@ -1,0 +1,25 @@
+name: Run Selenium Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11' # Set the Java version you need
+
+      - name: Build and Run Kotlin Program
+        run: |
+          kotlinc SeleniumTest.kt -include-runtime -d SeleniumTest.jar
+          java -jar SeleniumTest.jar
+        working-directory: ${{ github.workspace }}
