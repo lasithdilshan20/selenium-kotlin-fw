@@ -19,7 +19,11 @@ jobs:
           java-version: '11' # Set the Java version you need
           distribution: 'adopt'
 
-      - name: Build and Run Kotlin Program
+      - name: Set execute permission for gradlew
+        run: chmod +x ./gradlew
+        working-directory: path/to/your/project
+
+      - name: Build and Run Selenium Test
         run: |
-          ./gradlew test
+            ./gradlew test
         working-directory: ${{ github.workspace }}
