@@ -16,7 +16,7 @@ class ResultPage {
     fun verifyPageTitle(driver: WebDriver) {
         val pageTitle = driver.title
         if (pageTitle == pageTitleText) {
-            println("Test Passed")
+            println("Title: $pageTitle  Test Passed")
         } else {
             println("Test Failed")
         }
