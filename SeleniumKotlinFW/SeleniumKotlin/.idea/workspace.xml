@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d7dbd198-35f9-43ed-9061-ca512c221c67" name="Changes" comment="Add GitHub Actions workflow for Selenium Test&#10;&#10;A new workflow file was created in .github/workflow named work-flow.yml. This new file sets up a GitHub Actions workflow to automatically build and run Selenium tests upon every push to the main branch. It ensures consistent testing environment using GitHub's ubuntu-latest runner and Java 11. Committing this change will enforce these tests, improving overall code reliability.">
+      <change beforePath="$PROJECT_DIR$/.github/workflow/work-flow.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/config/ConfigDriver.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/data/TestData.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pages/HomePage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/pages/ResultPage.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/test/SeleniumTest.kt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2XCnRGH0I0JvmGsMutLiQgnw3zE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "android.gradle.sync.needed": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Automation/Selenium/selenium-kotlin-fw",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Automation\Selenium\selenium-kotlin-fw\SeleniumKotlinFW\SeleniumKotlin\src\main\kotlin\test" />
+      <recent name="C:\Automation\Selenium\selenium-kotlin-fw\SeleniumKotlinFW\SeleniumKotlin\pages" />
+      <recent name="C:\Automation\Selenium\selenium-kotlin-fw\SeleniumKotlinFW\SeleniumKotlin\src\main\kotlin" />
+      <recent name="C:\Automation\Selenium\selenium-kotlin-fw\SeleniumKotlinFW\SeleniumKotlin\drivers" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="SeleniumTestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.SeleniumTestKt" />
+      <module name="SeleniumKotlin.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.SeleniumTestKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SeleniumInternalSettingsState">
+    <option name="lastFrameworkName" value="FluentLenium" />
+    <option name="lastLanguageId" value="JAVA" />
+    <option name="lastUrl" value="https://www.jetbrains.com/" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7dbd198-35f9-43ed-9061-ca512c221c67" name="Changes" comment="" />
+      <created>1698141919722</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1698141919722</updated>
+      <workItem from="1698141920715" duration="6733000" />
+    </task>
+    <task id="LOCAL-00001" summary="Init Kotlin Selenium Test with&#10;&#10;Introduced a new Selenium test to automate basic interactions on JetBrains site, including search and downloading. The test uses the Chrome WebDriver to simulate user actions, making assertions to validate the flow.&#10;&#10;In addition, updated the .gitignore file to ignore certain files generated in the .idea directory, such as workspace settings and HTTP client requests. Thus, preventing unnecessary or sensitive data from being version controlled.">
+      <option name="closed" value="true" />
+      <created>1698143886717</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1698143886717</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Init Kotlin Selenium Test with&#10;&#10;Introduced a new Selenium test to automate basic interactions on JetBrains site, including search and downloading. The test uses the Chrome WebDriver to simulate user actions, making assertions to validate the flow.&#10;&#10;In addition, updated the .gitignore file to ignore certain files generated in the .idea directory, such as workspace settings and HTTP client requests. Thus, preventing unnecessary or sensitive data from being version controlled.">
+      <option name="closed" value="true" />
+      <created>1698143914795</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698143914795</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&quot;Refactor Selenium tests to follow Page Object Model pattern&quot;&#10;&#10;Refactored the Selenium tests to follow the Page Object Model pattern. The refactoring was done to make the tests more maintainable and understandable. Deleted the monolithic SeleniumTest.kt and broken it down into separate classes for each web page, such as HomePage and ResultPage, following the Page Object Model. Each page's properties and behaviours are encapsulated within its corresponding class, making the tests more organized and easier to comprehend. Also added support for various browser drivers in the config package and data used for testing is now stored in TestData class.">
+      <option name="closed" value="true" />
+      <created>1698147979833</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698147979833</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;Refactor Selenium tests for multiple browsers support&quot;&#10;&#10;This commit removes some unused Selenium test files and refactors the test suite to make it more flexible and usable across multiple browsers. The HomePage.kt, ResultPage.kt and TestData.kt have been deleted, as their functionalities have been moved and restructured.&#10;&#10;In SeleniumTest.kt, a new function 'searchTest' has been created to encapsulate search related tests which can now be performed on any WebDriver instance. This allows the same tests to be reused across different browser drivers.&#10;&#10;Also, a minor change in the ResultPage.kt file has been made for better test pass feedback by printing the page title when the test passes.">
+      <option name="closed" value="true" />
+      <created>1698149167020</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698149167020</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add GitHub Actions workflow for Selenium Test&#10;&#10;A new workflow file was created in .github/workflow named work-flow.yml. This new file sets up a GitHub Actions workflow to automatically build and run Selenium tests upon every push to the main branch. It ensures consistent testing environment using GitHub's ubuntu-latest runner and Java 11. Committing this change will enforce these tests, improving overall code reliability.">
+      <option name="closed" value="true" />
+      <created>1698149639681</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698149639681</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Init Project&#10;&#10;" />
+    <MESSAGE value="Init Kotlin Selenium Test with&#10;&#10;Introduced a new Selenium test to automate basic interactions on JetBrains site, including search and downloading. The test uses the Chrome WebDriver to simulate user actions, making assertions to validate the flow.&#10;&#10;In addition, updated the .gitignore file to ignore certain files generated in the .idea directory, such as workspace settings and HTTP client requests. Thus, preventing unnecessary or sensitive data from being version controlled." />
+    <MESSAGE value="." />
+    <MESSAGE value="&quot;Refactor Selenium tests to follow Page Object Model pattern&quot;&#10;&#10;Refactored the Selenium tests to follow the Page Object Model pattern. The refactoring was done to make the tests more maintainable and understandable. Deleted the monolithic SeleniumTest.kt and broken it down into separate classes for each web page, such as HomePage and ResultPage, following the Page Object Model. Each page's properties and behaviours are encapsulated within its corresponding class, making the tests more organized and easier to comprehend. Also added support for various browser drivers in the config package and data used for testing is now stored in TestData class." />
+    <MESSAGE value="&quot;Refactor Selenium tests for multiple browsers support&quot;&#10;&#10;This commit removes some unused Selenium test files and refactors the test suite to make it more flexible and usable across multiple browsers. The HomePage.kt, ResultPage.kt and TestData.kt have been deleted, as their functionalities have been moved and restructured.&#10;&#10;In SeleniumTest.kt, a new function 'searchTest' has been created to encapsulate search related tests which can now be performed on any WebDriver instance. This allows the same tests to be reused across different browser drivers.&#10;&#10;Also, a minor change in the ResultPage.kt file has been made for better test pass feedback by printing the page title when the test passes." />
+    <MESSAGE value="Add GitHub Actions workflow for Selenium Test&#10;&#10;A new workflow file was created in .github/workflow named work-flow.yml. This new file sets up a GitHub Actions workflow to automatically build and run Selenium tests upon every push to the main branch. It ensures consistent testing environment using GitHub's ubuntu-latest runner and Java 11. Committing this change will enforce these tests, improving overall code reliability." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add GitHub Actions workflow for Selenium Test&#10;&#10;A new workflow file was created in .github/workflow named work-flow.yml. This new file sets up a GitHub Actions workflow to automatically build and run Selenium tests upon every push to the main branch. It ensures consistent testing environment using GitHub's ubuntu-latest runner and Java 11. Committing this change will enforce these tests, improving overall code reliability." />
+  </component>
+</project>
