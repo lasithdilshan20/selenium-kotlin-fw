@@ -20,8 +20,8 @@ jobs:
           distribution: 'adopt'
 
       - name: Set execute permission for gradlew
-        run: chmod +x ./gradlew
-        working-directory: path/to/your/project
+        run: chmod +x path/to/your/project/gradlew
+        working-directory: ${{ github.workspace }}/path/to/your/project
 
       - name: Build and Run Selenium Test
         run: |
