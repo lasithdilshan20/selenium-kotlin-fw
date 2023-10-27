@@ -2,7 +2,6 @@ package config
 
 import org.openqa.selenium.WebDriver
 import org.openqa.selenium.chrome.ChromeDriver
-import org.openqa.selenium.chrome.ChromeOptions
 import org.openqa.selenium.edge.EdgeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
 
@@ -14,16 +13,6 @@ open class ConfigDriver {
 
             // Initialize the WebDriver (in this case, using Chrome)
             return ChromeDriver()
-        }
-
-        fun initializeChromeDriverHeadless(): WebDriver {
-            // Set the system property for ChromeDriver
-            System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe")
-
-            // Initialize the WebDriver (in this case, using Chrome)
-            val chromeOptions = ChromeOptions()
-            chromeOptions.addArguments("--headless")
-            return ChromeDriver(chromeOptions)
         }
 
         fun initializeFirefoxDriver(): WebDriver {

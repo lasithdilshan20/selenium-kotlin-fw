@@ -1,25 +1,34 @@
 package test
 
+import based.CommandBased
 import config.ConfigDriver
 import org.openqa.selenium.WebDriver
 import pages.HomePage
-import pages.ResultPage
+import pages.IDEAPage
 
 val chromeDriver: WebDriver = ConfigDriver.initializeChromeDriver()
-/*val firefoxDriver: WebDriver = ConfigDriver.initializeFirefoxDriver()
+val firefoxDriver: WebDriver = ConfigDriver.initializeFirefoxDriver()
 val edgeDriver: WebDriver = ConfigDriver.initializeEdgeDriver()
-val chromeDriverHeadless: WebDriver = ConfigDriver.initializeChromeDriverHeadless()*/
 
 val HomePage = HomePage()
-val ResultPage = ResultPage()
+val IDEAPage = IDEAPage()
+val I = CommandBased()
 
 fun searchTest(driver: WebDriver) {
     HomePage.openPage(driver)
+    I.Click(HomePage.searchIcon)
     HomePage.search(driver)
-    ResultPage.verifyDownloadButtonPresent(driver)
-    ResultPage.verifyPageTitle(driver)
-    ConfigDriver.quitDriver(chromeDriver)
+
+    IDEAPage.verifyDownloadButtonPresent(driver)
+    IDEAPage.verifyPageTitle(driver)
+    IDEAPage.clickDownloadButton(driver)
+    IDEAPage.clickPricingButton(driver)
+    IDEAPage.selectPricingOption(driver)
+
+    ConfigDriver.quitDriver(driver)
 }
 fun main() {
     searchTest(chromeDriver)
+    /*searchTest(firefoxDriver)
+    searchTest(edgeDriver)*/
 }
