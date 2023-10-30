@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver
 
 val driver: WebDriver = ConfigDriver.initializeChromeDriver()
 
-class CommandBased {
+open class CommandBased {
     fun Click(element: String){
         when (element){
             element.startsWith("/").toString() -> driver.findElement(By.xpath(element)).click()
