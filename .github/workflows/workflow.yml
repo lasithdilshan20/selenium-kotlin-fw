@@ -1,4 +1,4 @@
-name: Run Selenium Test
+name: Selenium Test
 
 on:
   push:
@@ -6,24 +6,25 @@ on:
       - main
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout code
+      uses: actions/checkout@v2
 
-      - name: Set up JDK
-        uses: actions/setup-java@v2
-        with:
-          java-version: '11' # Set the Java version you need
-          distribution: 'adopt'
+    - name: Set up JDK
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+        distribution: 'adopt'
 
-      - name: Set execute permission for gradlew
-        run: chmod +x ./gradlew
-        working-directory: path/to/your/project
+    - name: Set execute permission for gradlew
+      run: chmod +x ./selenium-kotlin-fw/gradlew
+      working-directory: ${{ github.workspace }}
 
-      - name: Build and Run Selenium Test
-        run: |
-            ./gradlew test
-        working-directory: ${{ github.workspace }}
+    - name: Build and Run Selenium Test
+      run: |
+        cd selenium-kotlin-fw
+        ./gradlew test
+      working-directory: ${{ github.workspace }}
